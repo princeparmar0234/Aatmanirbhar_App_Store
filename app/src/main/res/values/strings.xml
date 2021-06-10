@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Indian App Store</string>
+    <string name="Open">open</string>
+    <string name="home">Home</string>
+    <string name="install">Install</string>
+    <string name="Close">close</string>
+</resources>

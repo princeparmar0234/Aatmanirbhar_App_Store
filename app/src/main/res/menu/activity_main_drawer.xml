@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item
+        android:title="Install App"
+        android:icon="@drawable/ic_baseline_arrow_downward_24"
+        android:id="@+id/install"
+        />
+
+    <item
+        android:title="Contact us"
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_baseline_call_24"
+        />
+    <item
+        android:title="Rate "
+        android:icon="@drawable/ic_baseline_star_rate_24"
+        android:id="@+id/rate"/>
+    <item
+        android:title="Exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:id="@+id/exit"/>
+</menu>

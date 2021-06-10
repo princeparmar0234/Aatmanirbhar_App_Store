@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="3dp"
+    android:background="@android:color/transparent"
+    app:cardUseCompatPadding="true"
+    android:paddingBottom="15dp"
+    android:id="@+id/cardView"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/imageView"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:text="title"
+            android:maxLines="1"
+            android:id="@+id/title"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/purple_700"
+        android:id="@+id/install"
+        android:text="Install"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="end"
+        />
+</androidx.cardview.widget.CardView>

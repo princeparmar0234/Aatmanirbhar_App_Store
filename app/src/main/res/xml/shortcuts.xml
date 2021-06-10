@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="Home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:shortcutShortLabel="@string/home"
+        android:shortcutLongLabel="@string/home"
+        >
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="com.example.aatmanirbhar"
+        android:targetClass="com.example.aatmanirbhar.RetriveActivity"
+        />
+    </shortcut>
+    <shortcut
+        android:shortcutId="Install App"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_arrow_downward_24"
+        android:shortcutShortLabel="@string/install"
+        android:shortcutLongLabel="@string/install"
+            >
+        <intent
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="com.example.aatmanirbhar"
+        android:targetClass="com.example.aatmanirbhar.Install_application"
+            />
+
+</shortcut>
+</shortcuts>
