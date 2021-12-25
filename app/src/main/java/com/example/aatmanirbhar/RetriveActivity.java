@@ -54,7 +54,14 @@ public class RetriveActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_retrive);
 
+
+        //setSupportActionBar(toolbar);
+
+        toolbar=findViewById(R.id.toolbar);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setTitle("Home");
         broadcastReceiver=new NetworkChangeReceiver();
+
 
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-3903791531866996/9268938018");
@@ -62,6 +69,7 @@ public class RetriveActivity extends AppCompatActivity {
 
         tabLayout=findViewById(R.id.tablayout);
         viewPager=findViewById(R.id.viewpager);
+
 
 
         ArrayList<String> arrayList=new ArrayList<>();
@@ -104,14 +112,12 @@ public class RetriveActivity extends AppCompatActivity {
     }
 
     public void  navigation(){
-        toolbar=findViewById(R.id.toolbar);
+
 
         navigationView=findViewById(R.id.nav_view);
         drawerLayout=findViewById(R.id.drawer_layout);
 
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Home");
+
         drawerLayout.setRadius(GravityCompat.START, 25);
         drawerLayout.setViewScale(Gravity.START, 0.9f);
         drawerLayout.setViewElevation(Gravity.START,20);

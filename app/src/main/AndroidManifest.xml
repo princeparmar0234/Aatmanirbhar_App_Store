@@ -20,10 +20,8 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".Contact_us">
-
-        </activity>
         <activity android:name=".Install_application"></activity>
+        <activity android:name=".Contact_us"></activity>
         <activity android:name=".RetriveActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
